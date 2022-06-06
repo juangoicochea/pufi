@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    box-shadow: 0 5px 10px black;
+    padding: 40px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    line-height: 2em;
+}
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.container li {
+    cursor: pointer;
+}
+
+.container li:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}

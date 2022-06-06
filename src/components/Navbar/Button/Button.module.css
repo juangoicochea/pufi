@@ -1,0 +1,32 @@
+.buttonLi {
+    display: inline-flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 17px;
+    border-right: 1px solid rgba(255, 255, 255, 0.503);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0;
+
+    transition: 0.4s;
+}
+
+.buttonLi:last-child {
+    border-right: none ;
+}
+
+.buttonLi:hover {   
+    padding-right: 25px;
+    color: aquamarine;
+}
+
+.buttonLi:nth-child(3n):hover, .buttonLi:last-child:hover {
+    padding-right: 17px;
+    padding-left: 25px;
+}
+
+.icon {
+    width: fit-content;
+    margin-bottom: 10px;
+}

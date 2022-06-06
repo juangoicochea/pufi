@@ -1,0 +1,32 @@
+.container {
+    width: calc(100% - 80px);
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.logo {
+    height: fit-content;
+}
+
+.rightMenu li {
+    display: inline;
+    border-right: 1px solid rgba(255, 255, 255, 0.503);
+    padding: 0 10px;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.rightMenu li:hover {
+    color: aquamarine;
+}
+
+.rightMenu li:last-child {
+    border: none;
+}
