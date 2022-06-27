@@ -43,3 +43,13 @@
     color: red;
     margin-left: -40px;
 }
+
+.hidder {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    z-index: 99999;
+    bottom: -2850px;
+    right: 0;
+}

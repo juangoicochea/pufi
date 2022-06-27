@@ -76,6 +76,7 @@ const Home = () => {
                 <p>Instagram</p>
                 <h2>#Espufi</h2>
                 <ElfsightWidget widgetID="3a414a70-2059-496a-97a3-ff8f03d8d4e9" />
+                <div className={styles.hidder}></div>
             </div>
 
             <div className={styles.container}>
@@ -84,7 +85,7 @@ const Home = () => {
                 <span>Y enterate de todas las novedades</span>
                 <br />
                 <form onSubmit={(e) => handleSubmit(e)}>
-                    <input type="email" name="email" placeholder='Ingresa tu email' onChange={(e) => handleChange(e)} />
+                    <input type="email" value={input.email} name="email" placeholder='Ingresa tu email' onChange={(e) => handleChange(e)} />
                     {Object.keys(errors).length === 0 && input.email.length >= 1 ?
                         <button type='submit'>&rarr;</button> : null
                     }
