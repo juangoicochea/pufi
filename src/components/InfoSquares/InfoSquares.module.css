@@ -56,3 +56,10 @@
 .info button:hover {
     color: black;
 }
+
+@media screen and (max-width: 920px) {
+    .info p {
+        width: calc(100% - 10%);
+        margin: 10px 5%;
+    }
+  }

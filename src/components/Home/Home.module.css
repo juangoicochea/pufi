@@ -11,7 +11,15 @@
     text-align: center;
 }
 
-.container p {
+.containerInsta {
+    margin-top: 70px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerInsta p, .container p {
     font-size: 0.7em;
     text-transform: uppercase;
     color: #666;
@@ -50,6 +58,10 @@
     background-color: white;
     position: absolute;
     z-index: 99999;
-    bottom: -2850px;
+    bottom: 0px;
     right: 0;
+}
+
+@media screen and (max-width: 920px) {
+    
 }

@@ -30,3 +30,23 @@
     margin: 0 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 920px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cols {
+        width: calc(100% - 5%);
+        margin: 10px 5%;
+        text-align: center;
+    }
+    .container ul {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .container li {
+        margin: 0 7px;
+    }
+}

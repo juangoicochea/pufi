@@ -52,7 +52,7 @@ const Slider = () => {
                         className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                         >
                             <div className='sliderTitle'>
-                                {obj.title}
+                                <p>{obj.title}</p>
                                 <Button />
                             </div>
                             

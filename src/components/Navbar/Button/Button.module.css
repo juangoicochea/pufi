@@ -30,3 +30,10 @@
     width: fit-content;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 920px) {
+    .buttonLi {
+        padding: 0 6px;
+        font-size: 0.75rem;
+    }
+}

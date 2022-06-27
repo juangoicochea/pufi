@@ -72,7 +72,7 @@ const Home = () => {
                 ))
             }
 
-            <div className={styles.container}>
+            <div className={styles.containerInsta}>
                 <p>Instagram</p>
                 <h2>#Espufi</h2>
                 <ElfsightWidget widgetID="3a414a70-2059-496a-97a3-ff8f03d8d4e9" />
